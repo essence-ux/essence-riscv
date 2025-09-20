@@ -1,7 +1,7 @@
 # essence-riscv
 RISC-V Tapeout 
 <details>
-  <summary>Week - 0: Installation of Tool</summary>
+  <summary>Week - 0: Installation of Tools</summary>
 
   ### System Requirements
   - Minimum 6GB RAM
