@@ -1,8 +1,8 @@
 # essence-riscv
 RISC-V Tapeout 
 <details>
-  <summary>Week - 0: Installation of Tools</summary>
-
+  <summary>Week - 0: Installation of Tools and SOC WorkFlow</summary>
+  
   ### System Requirements
   - Minimum 6GB RAM
   - 50GB HDD
@@ -50,4 +50,21 @@ RISC-V Tapeout
     ```
   </details>
 
+  <details>
+    <summary>SoC Workflow Summary</summary>
+
+  - Chip modelling begins with specs in C and a testbench written in C.
+  - A soft copy of the hardware is created using RTL (Verilog) for SoC design flow.
+  - The SoC consists of processor cores and peripherals/IPs subdivided for modular design.
+  - Components undergo gate-level netlist synthesis, macro synthesis, and analog IP functional modeling.
+  - SoC integration assembles all blocks, including GPIOs, floorplanning, placement, clock tree synthesis, and routing for physical design.
+  - Physical design leads to GDSII layout, followed by design rule checks (DRC/LVS).
+  - Final SoC verification ensures all design stages are functionally equivalent (O1 = O2 = O3 = O4).
+  - Resulting SoCs run at target frequencies (typically 100–130 MHz) and are applied in products like smartwatches, Arduino boards, TV panels, and AC applications.
+  - Testbenches remain in C language throughout verification for consistency and speed.
+
 </details>
+  
+
+
+  
