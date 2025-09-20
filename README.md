@@ -1,8 +1,9 @@
 # essence-riscv
-RISC-V Tapeout 
+RISC-V Tapeout
+
 <details>
-  <summary>Week - 0: Installation of Tools and SOC WorkFlow</summary>
-  
+  <summary>Week - 0: Installation of Tools and SoC Workflow Overview</summary>
+
   ### System Requirements
   - Minimum 6GB RAM
   - 50GB HDD
@@ -16,7 +17,6 @@ RISC-V Tapeout
 
   <details>
     <summary>Yosys Installation</summary>
-
     ```
     sudo apt-get update
     git clone https://github.com/YosysHQ/yosys.git
@@ -34,7 +34,6 @@ RISC-V Tapeout
 
   <details>
     <summary>Icarus Verilog Installation</summary>
-
     ```
     sudo apt-get update
     sudo apt-get install iverilog
@@ -43,15 +42,13 @@ RISC-V Tapeout
 
   <details>
     <summary>GTKWave Installation</summary>
-
     ```
     sudo apt-get update
     sudo apt install gtkwave
     ```
   </details>
 
-  <details>
-    <summary>SoC Workflow Summary</summary>
+  ### SoC Workflow Summary
 
   - Chip modelling begins with specs in C and a testbench written in C.
   - A soft copy of the hardware is created using RTL (Verilog) for SoC design flow.
@@ -64,7 +61,3 @@ RISC-V Tapeout
   - Testbenches remain in C language throughout verification for consistency and speed.
 
 </details>
-  
-
-
-  
